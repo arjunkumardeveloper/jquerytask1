@@ -1,0 +1,150 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+.container
+{
+    margin: 32px 18px;
+}
+.form-group
+{
+    margin: 15px;
+}
+input
+{
+    padding: 5px;
+    width: 15%;
+}
+#sku
+{
+    margin-left: 100px;
+}
+#success
+{
+    margin-left: 18px;
+    margin-right: 25px;
+    background-color: #7ED47E;
+    padding: 13px;
+    /* width: 32%; */
+    border-radius: 13px;
+    font-weight: bold;
+    display: none;
+}
+#error
+{
+    margin-left: 18px;
+    margin-right: 25px;
+    background-color: #FF5733;
+    padding: 13px;
+    /* width: 32%; */
+    border-radius: 13px;
+    font-weight: bold;
+    display: none;
+}
+.close
+{
+    float: right;
+    cursor: pointer;
+}
+#name 
+{
+    margin-left: 87px; 
+}
+#price
+{
+    margin-left: 96px;
+}
+#qty
+{
+    margin-left: 67px;
+}
+input[type=submit]
+{
+    padding: 12px;
+    width: 15%;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-top: 45px;
+}
+table
+{
+    margin-left: 18px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+table, th, td
+{
+    padding: 10px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+#updateRow
+{
+    display: none;
+}
+@media only screen and (max-width: 1024px)
+{
+    input
+    {
+        width: 20%;
+    }
+    table
+    {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    input
+    {
+        width: 30%;
+    }
+    input[type = submit]
+    {
+        width: 23%;
+    }
+}
+@media only screen and (max-width: 425px)
+{
+    label
+    {
+        display: block;
+        margin-left: -19px
+    }
+    input[type = text]
+    {
+        margin-left: -15px !important;
+        width: 100%;
+        padding: 8px;
+    }
+    input[type = submit]
+    {
+        width: 47%;
+    }
+    table
+    {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 375px)
+{
+    .form-group
+    {
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 320px)
+{
+    .form-group
+    {
+        margin: 10px;
+    }
+    input[type = submit]
+    {
+        width: 58%;
+    }
+}
